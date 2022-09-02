@@ -1,0 +1,71 @@
+:root{
+	--azul:#53E0E1 ; 
+	--morado:#CE9BD7;
+	--rosa:#F699BA;
+	--amarrillo:#FCD970;
+	
+}
+
+
+.amarillo{
+    background-color: #fcd970;
+}
+
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	min-height: 100vh;
+	
+}
+
+
+.contenedor-perso{
+	
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+			0 10px 10px rgba(0,0,0,0.22);
+}
+
+h1 {
+	font-weight: bold;
+	margin: 0;
+}
+
+h2 {
+	text-align: center;
+}
+
+p {
+	font-size: 14px;
+	font-weight: 100;
+	line-height: 20px;
+	letter-spacing: 0.5px;
+	margin: 20px 0 30px;
+}
+
+span {
+	font-size: 12px;
+}
+
+a {
+	color: #000;
+	font-size: 14px;
+	text-decoration: none;
+	margin: 15px 0;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+
+
